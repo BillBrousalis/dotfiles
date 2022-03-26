@@ -1,2 +1,2 @@
-# my_config
-Configuration files for tmux / vim / etc.
+# Config Files
+Configuration files for `tmux` / `vim` / `zsh`.
