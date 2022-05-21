@@ -39,6 +39,8 @@ set nowrap
 
 "set noexpandtab
 
+filetype plugin on
+
 imap jj <Esc>
 
 " turn hybrid line numbers on
