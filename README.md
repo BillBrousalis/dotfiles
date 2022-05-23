@@ -1,2 +1,2 @@
-# Config Files
-Configuration files for `tmux` / `vim` / `zsh`.
+# Dotfiles
+dotfiles for `tmux` | `vim` | `zsh`.
