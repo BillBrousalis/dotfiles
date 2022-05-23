@@ -19,11 +19,8 @@ set showcmd
 set incsearch
 
 set showmode
-
 set showmatch
-
 set hlsearch
-
 set history=1000
 
 set wildmenu
@@ -31,15 +28,7 @@ set wildmode=list:longest
 
 set nowrap
 
-"set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-
 "set listchars=tab:.-,trail:-,eol:$ list
-
-"retab
-
-"set noexpandtab
-
-filetype plugin on
 
 imap jj <Esc>
 
@@ -48,3 +37,7 @@ set number relativenumber
 set nu rnu
 
 set term=screen-256color
+
+"filetype shit
+filetype on
+autocmd FileType make set noexpandtab shiftwidth=4 softtabstop=0
