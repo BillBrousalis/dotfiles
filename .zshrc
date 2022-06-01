@@ -25,7 +25,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-PROMPT='%F{244}hax %f[%B%F{142}%1~%f%b] » '
+#PROMPT='%F{244}hax %f[%B%F{142}%1~%f%b] » '
+PROMPT='%F{241}hax::%f[%B%F{100}%~%f%b] » '
 
 #PROMPT='%F{244}hax%F{141}✔ %f[%B%F{142}%~%f%b]
 # ↳ '
