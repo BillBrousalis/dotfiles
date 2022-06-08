@@ -5,3 +5,6 @@ dotfiles for `tmux` | `vim` | `zsh`.
 Install `tpm`:
 
 `https://github.com/tmux-plugins/tpm`
+
+## Vim colorscheme
+`custom.vim` -> `~/.vim/colors/`
