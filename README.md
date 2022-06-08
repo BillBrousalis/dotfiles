@@ -2,6 +2,6 @@
 dotfiles for `tmux` | `vim` | `zsh`.
 
 ## Tmux
-Install `tmp`:
+Install `tpm`:
 
 `https://github.com/tmux-plugins/tpm`
