@@ -30,4 +30,6 @@ Tmux-Prefix + `I` to install `tmux` packages
 
 ## Monaco font
 
-Place @
+```
+sudo ./install_monaco.sh
+```
