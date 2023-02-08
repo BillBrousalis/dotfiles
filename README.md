@@ -1,6 +1,8 @@
 # Dotfiles
 
-dotfiles for `tmux` | `vim` | `zsh`. And more.
+Dotfiles for `tmux` | `vim` | `zsh`.
+
+And more.
 
 ## Update dotfiles - gtk - vim colorscheme
 
@@ -11,7 +13,7 @@ dotfiles for `tmux` | `vim` | `zsh`. And more.
 ## Make terminal borders thin
 
 ```
-./remove_term_options
+./remove_term_options.sh
 ```
 
 ## Tmux
@@ -24,12 +26,13 @@ Tmux-Prefix + `I` to install `tmux` packages
 
 ( + xcopy / xsel install )
 
-## Vim colorscheme
-
-`custom.vim` -> `~/.vim/colors/` ( done by ./update_dotfiles.sh )
-
 ## Monaco font
 
 ```
 sudo ./install_monaco.sh
 ```
+
+## Vim colorscheme
+
+`custom.vim` -> `~/.vim/colors/` ( done by ./update_dotfiles.sh )
+
