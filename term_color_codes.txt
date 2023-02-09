@@ -1,6 +1,7 @@
 background:
 
-#101010
+grey:  #161616
+black: #000000
 
 color palette:
 
