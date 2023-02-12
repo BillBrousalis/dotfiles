@@ -26,12 +26,6 @@ Tmux-Prefix + `I` to install `tmux` packages
 
 ( + xcopy / xsel install )
 
-## Monaco font
-
-```
-sudo ./install_monaco.sh
-```
-
 ## Vim colorscheme
 
 `custom.vim` -> `~/.vim/colors/` ( done by ./update_dotfiles.sh )
