@@ -4,10 +4,10 @@ Dotfiles for `tmux` | `vim` | `zsh`.
 
 And more.
 
-## Update dotfiles - gtk - vim colorscheme
+## setup dotfiles - fonts - etc
 
 ```
-./update_dotfiles.sh
+./setup.sh
 ```
 
 ## Make terminal borders thin
@@ -25,8 +25,3 @@ Install `tpm`:
 Tmux-Prefix + `I` to install `tmux` packages
 
 ( + xcopy / xsel install )
-
-## Vim colorscheme
-
-`custom.vim` -> `~/.vim/colors/` ( done by ./update_dotfiles.sh )
-
