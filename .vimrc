@@ -34,6 +34,7 @@ set wrap
 let mapleader=" "
 
 imap jj <Esc>
+map <leader>d "_d
 map <leader>p "_dP
 
 " turn hybrid line numbers on
