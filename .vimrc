@@ -1,4 +1,3 @@
-colorscheme custom
 set number
 set belloff=all
 
@@ -27,11 +26,15 @@ set history=1000
 set wildmenu
 set wildmode=list:longest
 
-set nowrap
+" set nowrap
+set wrap
 
-"set listchars=tab:.-,trail:-,eol:$ list
+"set listchars=tab:.-,trail:-,eol:$ list // hunt down whitespace
+
+let mapleader=" "
 
 imap jj <Esc>
+map <leader>p "_dP
 
 " turn hybrid line numbers on
 set number relativenumber
@@ -42,3 +45,6 @@ set term=screen-256color
 "filetype shit
 filetype on
 autocmd FileType make set noexpandtab shiftwidth=4 softtabstop=0
+
+" put on bottom cause otherwise doesn't work on docker
+colorscheme custom
