@@ -25,3 +25,18 @@ Install `tpm`:
 Tmux-Prefix + `I` to install `tmux` packages
 
 ( + xcopy / xsel install )
+
+## Ctags
+
+Install ctags:
+```
+git clone https://github.com/universal-ctags/ctags.git
+cd ctags
+./autogen.sh 
+./configure
+make
+sudo make install
+```
+
+`Ctrl+]` = go to definition
+`Ctrl+T` = go back
