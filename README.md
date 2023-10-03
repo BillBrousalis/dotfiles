@@ -38,5 +38,6 @@ make
 sudo make install
 ```
 
+`ctags -R` to create tags file
 `Ctrl+]` = go to definition
 `Ctrl+T` = go back
