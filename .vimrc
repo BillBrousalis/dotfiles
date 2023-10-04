@@ -36,6 +36,9 @@ let mapleader=" "
 imap jj <Esc>
 map <leader>d "_d
 map <leader>p "_dP
+map <F1> :Sex<CR>
+map <F2> :Vex<CR>
+map <F10> :Ex<CR>
 
 " turn hybrid line numbers on
 set number relativenumber
