@@ -52,3 +52,6 @@ autocmd FileType make set noexpandtab shiftwidth=4 softtabstop=0
 
 " put on bottom cause otherwise doesn't work on docker
 colorscheme custom
+
+" transparency
+hi Normal guibg=NONE ctermbg=NONE
